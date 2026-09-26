@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Shopping Cart | Khalik Jahiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/ecommerce.css">
+        <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper@6.7.0/swiper-bundle.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/14.0.5/swiper-bundle.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+    <link rel="stylesheet" href="assets/css/ecommerce.css">
+</head>
+
+<body>
+    <header>
+
+            <!--==============================
+        TOP BAR
+    ==============================-->
+
+    <div class="top-bar">
+
+        <div class="container">
+
+            <div class="top-left">
+
+                <i class="fa-solid fa-bolt"></i>
+
+                <span>Free delivery on orders over OMR 50</span>
+
+            </div>
+
+            <div class="top-right">
+
+                <a href="#">Track Order</a>
+
+                <a href="#">Help Center</a>
+
+                <a href="#">
+                    English
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+
+                <a href="#">
+                    OMR
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+        <div class="container">
+
+            <div class="header-glass">
+
+                <!-- Logo -->
+
+                <a href="index.html" class="logo">
+
+                    <img src="assets/images/logo.png" alt="">
+
+                </a>
+
+
+                <!-- Search -->
+
+                <div class="search-box">
+
+                    <input type="text" placeholder="Search products, brands and more...">
+
+                    <button>
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Icons -->
+
+                <div class="header-icons">
+
+                    <a href="#">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                        <span>Wishlist</span>
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fa-solid fa-code-compare"></i>
+
+                        <span>Compare</span>
+
+                    </a>
+
+                    <a href="my-account.html">
+
+                        <i class="fa-regular fa-user"></i>
+
+                        <span>Account</span>
+
+                    </a>
+
+
+                    <a href="cart.html" class="cart-btn js-cart-toggle">
+
+                        <i class="fa-solid fa-bag-shopping"></i>
+
+                        <span>Cart</span>
+
+                        <b>2</b>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+    <!--==============================
+        NAVIGATION
+    ==============================-->
+
+    <section class="navigation">
+
+        <div class="container">
+
+            <div class="nav-wrapper">
+
+
+                <!-- Category -->
+
+                <div class="category-menu">
+
+                    <button class="category-btn">
+
+                        <i class="fa-solid fa-grip"></i>
+
+                        Shop By Categories
+
+                        <i class="fa-solid fa-angle-down"></i>
+
+                    </button>
+
+                    <div class="mega-menu">
+
+                        <a href="#"><i class="fa-solid fa-mobile-screen"></i>Phones & Tablets</a>
+
+                        <a href="#"><i class="fa-solid fa-headphones"></i>Headphones</a>
+
+                        <a href="#"><i class="fa-regular fa-clock"></i>Smart Watches</a>
+
+                        <a href="#"><i class="fa-solid fa-plug"></i>Chargers</a>
+
+                        <a href="#"><i class="fa-solid fa-battery-three-quarters"></i>Power Banks</a>
+
+                        <a href="#"><i class="fa-solid fa-volume-high"></i>Speakers</a>
+
+                        <a href="#"><i class="fa-solid fa-camera"></i>Cameras</a>
+
+                        <a href="#"><i class="fa-solid fa-gamepad"></i>Gaming</a>
+
+                        <a href="#" class="all-category">
+
+                            View All Categories
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Nav -->
+
+                <ul class="menu">
+
+                    <li><a href="index.html" class="active">Home</a></li>
+
+                    <li><a href="#">Brand</a></li>
+
+                    <li><a href="product-listing.html">All Products</a></li>
+
+                    <li><a href="#">New Arrivals</a></li>
+
+                    <li><a href="#">Best Sellers</a></li>
+
+                    <li><a href="#">Deals</a></li>
+
+                    <li><a href="#">Accessories</a></li>
+
+                </ul>
+
+
+                <!-- Sale -->
+
+                <a href="#" class="sale-box">
+
+                    <i class="fa-solid fa-tag"></i>
+
+                    <div>
+
+                        <strong>Summer Sale</strong>
+
+                        <span>Up to 40% OFF</span>
+
+                    </div>
+
+                </a>
+
+                <!-- Mobile Menu Button -->
+<div class="mobile-toggle">
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    </header>
+    <nav class="simple-nav">
+        <div class="container"><a href="product-listing.html">Shop All</a><a href="product-listing.html">Phones & Tablets</a><a href="product-listing.html">Headphones</a><a href="product-listing.html">Smart Watches</a><a href="product-listing.html">Gaming</a><a href="product-listing.html">Accessories</a>
+            <a
+            href="#">Deals</a>
+        </div>
+    </nav>
+    <main>
+        <section class="page-hero compact">
+            <div class="container">
+                <div class="crumb">Home / Phones & Tablets / Apple / iPhone 16 Pro Max</div>
+            </div>
+        </section>
+        <section class="product-detail">
+            <div class="container detail-grid">
+                <div class="gallery">
+                    <div class="thumbs">
+                        <button><img src="assets/images/home/arrival/1.jpg"></button>
+                        <button><img src="assets/images/home/arrival/2.png"></button>
+                        <button><img src="assets/images/home/arrival/3.png"></button>
+                        <button><img src="assets/images/home/arrival/4.png"></button>
+                    </div>
+                    <div class="main-photo"><span class="p-badge">Best Seller</span><img src="assets/images/home/arrival/1.jpg">
+                        <button class="zoom"><i class="fa-solid fa-expand"></i></button>
+                    </div>
+                </div>
+                <div class="detail-info">
+                    <div class="brandline">APPLE <span>In Stock</span></div>
+                    <h1>Apple iPhone 16 Pro Max 256GB</h1>
+                    <div class="rating big">★★★★★ <span>4.9 (126 Reviews)</span> <a href="#">Write a review</a></div>
+                    <div class="detail-price">OMR 529.000 <del>OMR 549.000</del> <em>Save OMR 20</em></div>
+                    <p class="lead">The ultimate iPhone experience with a stunning Super Retina XDR display, advanced camera system and powerful performance.</p>
+                    <div class="choice"><b>Color: <span>Natural Titanium</span></b>
+                        <div class="swatches">
+                            <button class="selected"></button>
+                            <button></button>
+                            <button></button>
+                            <button></button>
+                        </div>
+                    </div>
+                    <div class="choice"><b>Storage</b>
+                        <div class="chips">
+                            <button class="selected">256GB</button>
+                            <button>512GB</button>
+                            <button>1TB</button>
+                        </div>
+                    </div>
+                    <div class="buy-row">
+                        <div class="qty">
+                            <button>−</button>
+                            <input value="1">
+                            <button>+</button>
+                        </div>
+                        <button class="primary-btn grow"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                        <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <button class="buy-now">Buy It Now</button>
+                    <div class="benefits">
+                        <div><i class="fa-solid fa-truck-fast"></i><span><b>Fast Delivery</b>Across Muscat & Oman</span></div>
+                        <div><i class="fa-solid fa-shield-halved"></i><span><b>1 Year Warranty</b>Official warranty</span></div>
+                        <div><i class="fa-solid fa-rotate-left"></i><span><b>Easy Returns</b>7-day return policy</span></div>
+                    </div>
+                    <div class="accord">
+                        <details open>
+                            <summary>Product Description</summary>
+                            <p>Titanium design, A18 Pro chip, Camera Control, 48MP Fusion camera and all-day battery life. Built for performance, photography and everyday use.</p>
+                        </details>
+                        <details>
+                            <summary>Specifications</summary>
+                            <p>6.9-inch OLED display · A18 Pro · 256GB storage · 5G · USB-C · iOS.</p>
+                        </details>
+                        <details>
+                            <summary>Delivery & Warranty</summary>
+                            <p>Fast Oman delivery. One-year warranty and seven-day eligible returns.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="related">
+            <div class="container">
+                <div class="section-head">
+                    <div><small>YOU MAY ALSO LIKE</small>
+                        <h2>Related Products</h2></div><a href="product-listing.html">View All Products →</a></div>
+                <div class="related-grid">
+                    <article class="p-card" data-cat="Phones & Tablets" data-brand="Apple">
+                        <div class="p-img"><span class="p-badge">New</span>
+                            <a href="product-details.html"><img src="assets/images/home/arrival/1.jpg" alt="Apple iPhone 16 Pro Max"></a>
+                            <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                        <div class="p-info"><small>Apple · Phones & Tablets</small>
+                            <h3><a href="product-details.html">Apple iPhone 16 Pro Max</a></h3>
+                            <div class="rating">★★★★★ <span>(24)</span></div>
+                            <div class="p-price"><strong>OMR 529.000</strong><span class="stock ">In Stock</span></div>
+                            <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                        </div>
+                    </article>
+                    <article class="p-card" data-cat="Phones & Tablets" data-brand="Samsung">
+                        <div class="p-img"><span class="p-badge">New</span>
+                            <a href="product-details.html"><img src="assets/images/home/arrival/2.png" alt="Galaxy S25 Ultra 5G"></a>
+                            <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                        <div class="p-info"><small>Samsung · Phones & Tablets</small>
+                            <h3><a href="product-details.html">Galaxy S25 Ultra 5G</a></h3>
+                            <div class="rating">★★★★★ <span>(24)</span></div>
+                            <div class="p-price"><strong>OMR 469.000</strong><span class="stock ">In Stock</span></div>
+                            <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                        </div>
+                    </article>
+                    <article class="p-card" data-cat="Headphones" data-brand="Sony">
+                        <div class="p-img"><span class="p-badge">New</span>
+                            <a href="product-details.html"><img src="assets/images/home/arrival/3.png" alt="WH-1000XM5 Headphones"></a>
+                            <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                        <div class="p-info"><small>Sony · Headphones</small>
+                            <h3><a href="product-details.html">WH-1000XM5 Headphones</a></h3>
+                            <div class="rating">★★★★★ <span>(24)</span></div>
+                            <div class="p-price"><strong>OMR 139.900</strong><span class="stock ">Only 3 left</span></div>
+                            <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                        </div>
+                    </article>
+                    <article class="p-card" data-cat="Headphones" data-brand="Apple">
+                        <div class="p-img"><span class="p-badge">New</span>
+                            <a href="product-details.html"><img src="assets/images/home/arrival/4.png" alt="AirPods Pro 2nd Gen"></a>
+                            <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                        <div class="p-info"><small>Apple · Headphones</small>
+                            <h3><a href="product-details.html">AirPods Pro 2nd Gen</a></h3>
+                            <div class="rating">★★★★★ <span>(24)</span></div>
+                            <div class="p-price"><strong>OMR 99.000</strong><span class="stock ">In Stock</span></div>
+                            <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                        </div>
+                    </article>
+                    <article class="p-card" data-cat="Smart Watches" data-brand="Apple">
+                        <div class="p-img"><span class="p-badge">New</span>
+                            <a href="product-details.html"><img src="assets/images/home/arrival/5.png" alt="Watch Series 10 GPS"></a>
+                            <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                        <div class="p-info"><small>Apple · Smart Watches</small>
+                            <h3><a href="product-details.html">Watch Series 10 GPS</a></h3>
+                            <div class="rating">★★★★★ <span>(24)</span></div>
+                            <div class="p-price"><strong>OMR 169.000</strong><span class="stock ">In Stock</span></div>
+                            <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                        </div>
+                    </article>
+                    <article class="p-card" data-cat="Phones & Tablets" data-brand="Google">
+                        <div class="p-img"><span class="p-badge">New</span>
+                            <a href="product-details.html"><img src="assets/images/home/arrival/1.jpg" alt="Pixel 9 Pro XL"></a>
+                            <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                        <div class="p-info"><small>Google · Phones & Tablets</small>
+                            <h3><a href="product-details.html">Pixel 9 Pro XL</a></h3>
+                            <div class="rating">★★★★★ <span>(24)</span></div>
+                            <div class="p-price"><strong>OMR 399.000</strong><span class="stock ">Only 5 left</span></div>
+                            <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                        </div>
+                    </article>
+                    <article class="p-card" data-cat="Headphones" data-brand="Samsung">
+                        <div class="p-img"><span class="p-badge">New</span>
+                            <a href="product-details.html"><img src="assets/images/home/arrival/4.png" alt="Galaxy Buds3 Pro"></a>
+                            <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                        <div class="p-info"><small>Samsung · Headphones</small>
+                            <h3><a href="product-details.html">Galaxy Buds3 Pro</a></h3>
+                            <div class="rating">★★★★★ <span>(24)</span></div>
+                            <div class="p-price"><strong>OMR 79.900</strong><span class="stock ">In Stock</span></div>
+                            <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                        </div>
+                    </article>
+                    <article class="p-card" data-cat="Gaming" data-brand="Sony">
+                        <div class="p-img"><span class="p-badge">New</span>
+                            <a href="product-details.html"><img src="assets/images/home/arrival/2.png" alt="PlayStation 5 Slim"></a>
+                            <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                        <div class="p-info"><small>Sony · Gaming</small>
+                            <h3><a href="product-details.html">PlayStation 5 Slim</a></h3>
+                            <div class="rating">★★★★★ <span>(24)</span></div>
+                            <div class="p-price"><strong>OMR 209.000</strong><span class="stock ">In Stock</span></div>
+                            <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                        </div>
+                    </article>
+                    <article class="p-card" data-cat="Chargers" data-brand="Apple">
+                        <div class="p-img"><span class="p-badge">New</span>
+                            <a href="product-details.html"><img src="assets/images/home/arrival/5.png" alt="MagSafe Charger 25W"></a>
+                            <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                        <div class="p-info"><small>Apple · Chargers</small>
+                            <h3><a href="product-details.html">MagSafe Charger 25W</a></h3>
+                            <div class="rating">★★★★★ <span>(24)</span></div>
+                            <div class="p-price"><strong>OMR 19.900</strong><span class="stock ">In Stock</span></div>
+                            <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                        </div>
+                    </article>
+                    <article class="p-card" data-cat="Speakers" data-brand="JBL">
+                        <div class="p-img"><span class="p-badge">New</span>
+                            <a href="product-details.html"><img src="assets/images/home/arrival/3.png" alt="JBL Flip 6 Speaker"></a>
+                            <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                        <div class="p-info"><small>JBL · Speakers</small>
+                            <h3><a href="product-details.html">JBL Flip 6 Speaker</a></h3>
+                            <div class="rating">★★★★★ <span>(24)</span></div>
+                            <div class="p-price"><strong>OMR 49.900</strong><span class="stock out">Out of Stock</span></div>
+                            <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- ===========================
+        FOOTER START
+=========================== -->
+
+<footer class="footer">
+
+
+
+    <div class="container">
+
+        <!-- ===========================
+                Newsletter
+        ============================ -->
+
+        <div class="footer-newsletter">
+
+            <div class="newsletter-left">
+
+                <div class="newsletter-icon">
+                    <i class="ph ph-envelope-simple"></i>
+                </div>
+
+                <div class="newsletter-content">
+
+                    <h2>
+                        STAY CONNECTED WITH
+                        <span>KHALIK JAHIZ</span>
+                    </h2>
+
+                    <p>
+                        Get early access to exclusive collections,
+                        discounts and new arrivals.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <form class="newsletter-form">
+
+                <div class="newsletter-input">
+
+                    <i class="ph ph-envelope-simple"></i>
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email address">
+
+                </div>
+
+                <button type="submit">
+                    Subscribe
+                    <i class="ph ph-arrow-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- ===========================
+                Main Footer
+        ============================ -->
+
+        <div class="footer-main">
+
+            <!-- Left -->
+
+            <div class="footer-about">
+
+                <a href="#" class="footer-logo">
+                    <img src="assets/images/logo-yellow.png" alt="">
+                </a>
+
+                <p>
+
+                    Premium streetwear & lifestyle.
+                    Built for those who create
+                    their own rules.
+
+                </p>
+
+                <div class="footer-social">
+
+                    <a href="#">
+                        <i class="ph-fill ph-instagram-logo"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="ph-fill ph-facebook-logo"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="ph-fill ph-tiktok-logo"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="ph-fill ph-x-logo"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Shop -->
+
+            <div class="footer-column">
+
+                <h4>Shop</h4>
+
+                <ul>
+
+                    <li><a href="#">New Arrivals</a></li>
+
+                    <li><a href="#">Collections</a></li>
+
+                    <li><a href="#">Men</a></li>
+
+                    <li><a href="#">Women</a></li>
+
+                    <li><a href="#">Accessories</a></li>
+
+                    <li><a href="#">Best Sellers</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Support -->
+
+            <div class="footer-column">
+
+                <h4>Support</h4>
+
+                <ul>
+
+                    <li><a href="#">FAQ</a></li>
+
+                    <li><a href="#">Shipping Info</a></li>
+
+                    <li><a href="#">Returns</a></li>
+
+                    <li><a href="#">Track Order</a></li>
+
+                    <li><a href="#">Size Guide</a></li>
+
+                    <li><a href="#">Contact Us</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Company -->
+
+            <div class="footer-column">
+
+                <h4>Company</h4>
+
+                <ul>
+
+                    <li><a href="#">About Us</a></li>
+
+                    <li><a href="#">Our Story</a></li>
+
+                    <li><a href="#">Blog</a></li>
+
+                    <li><a href="#">Join Our Team</a></li>
+
+                    <li><a href="#">Sustainability</a></li>
+
+                    <li><a href="#">In The News</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Contact -->
+
+            <div class="footer-column footer-contact">
+
+                <h4>Contact</h4>
+
+                <ul>
+
+                    <li>
+
+                        <i class="ph-fill ph-map-pin"></i>
+
+                        <span>
+                            Muscat, Oman
+                        </span>
+
+                    </li>
+
+                    <li>
+
+                        <i class="ph-fill ph-phone"></i>
+
+                        <span>
+                            +971 XX XXX XXXX
+                        </span>
+
+                    </li>
+
+                    <li>
+
+                        <i class="ph-fill ph-envelope-simple"></i>
+
+                        <span>
+                            hello@khalikjahiz.com
+                        </span>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- ===========================
+                Bottom
+        ============================ -->
+
+        <div class="footer-bottom">
+
+            <div class="copyright">
+
+                © Khalik Jahiz.
+                All Rights Reserved.
+
+            </div>
+
+            <div class="footer-love">
+
+                <i class="ph-fill ph-heart"></i>
+
+                Crafted with passion.
+
+            </div>
+
+            <div class="payment-icons">
+
+                <img src="assets/images/payment/visa.png" alt="">
+
+                <img src="assets/images/payment/mastercard.png" alt="">
+
+                <img src="assets/images/payment/apple-pay.png" alt="">
+
+                <img src="assets/images/payment/paypal.png" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+    <div class="mini-cart-overlay"></div>
+    <aside class="mini-cart">
+        <div class="mini-head">
+            <h3>Your Cart <span>(2)</span></h3>
+            <button class="mini-close">×</button>
+        </div>
+        <div class="mini-items">
+            <div class="mini-item"><img src="assets/images/home/arrival/1.jpg">
+                <div><b>iPhone 16 Pro Max</b><small>Natural Titanium</small><strong>OMR 529.000</strong></div>
+                <button>×</button>
+            </div>
+            <div class="mini-item"><img src="assets/images/home/arrival/4.png">
+                <div><b>AirPods Pro</b><small>White</small><strong>OMR 99.000</strong></div>
+                <button>×</button>
+            </div>
+        </div>
+        <div class="mini-total">
+            <div><span>Subtotal</span><b>OMR 628.000</b></div>
+            <p>Shipping & taxes calculated at checkout.</p><a href="checkout.html" class="primary-btn">Checkout</a><a href="cart.html" class="outline-btn">View Cart</a></div>
+    </aside>
+      <script src="assets/js/ecommerce.js"></script>
+    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/ecommerce.js"></script>
+</body>
+
+</html>

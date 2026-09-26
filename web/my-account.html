@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Shopping Cart | Khalik Jahiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/ecommerce.css">
+        <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper@6.7.0/swiper-bundle.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/14.0.5/swiper-bundle.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+    <link rel="stylesheet" href="assets/css/ecommerce.css">
+</head>
+
+<body>
+    <header>
+
+            <!--==============================
+        TOP BAR
+    ==============================-->
+
+    <div class="top-bar">
+
+        <div class="container">
+
+            <div class="top-left">
+
+                <i class="fa-solid fa-bolt"></i>
+
+                <span>Free delivery on orders over OMR 50</span>
+
+            </div>
+
+            <div class="top-right">
+
+                <a href="#">Track Order</a>
+
+                <a href="#">Help Center</a>
+
+                <a href="#">
+                    English
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+
+                <a href="#">
+                    OMR
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+        <div class="container">
+
+            <div class="header-glass">
+
+                <!-- Logo -->
+
+                <a href="index.html" class="logo">
+
+                    <img src="assets/images/logo.png" alt="">
+
+                </a>
+
+
+                <!-- Search -->
+
+                <div class="search-box">
+
+                    <input type="text" placeholder="Search products, brands and more...">
+
+                    <button>
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Icons -->
+
+                <div class="header-icons">
+
+                    <a href="#">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                        <span>Wishlist</span>
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fa-solid fa-code-compare"></i>
+
+                        <span>Compare</span>
+
+                    </a>
+
+                    <a href="my-account.html">
+
+                        <i class="fa-regular fa-user"></i>
+
+                        <span>Account</span>
+
+                    </a>
+
+
+                    <a href="cart.html" class="cart-btn js-cart-toggle">
+
+                        <i class="fa-solid fa-bag-shopping"></i>
+
+                        <span>Cart</span>
+
+                        <b>2</b>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+    <!--==============================
+        NAVIGATION
+    ==============================-->
+
+    <section class="navigation">
+
+        <div class="container">
+
+            <div class="nav-wrapper">
+
+
+                <!-- Category -->
+
+                <div class="category-menu">
+
+                    <button class="category-btn">
+
+                        <i class="fa-solid fa-grip"></i>
+
+                        Shop By Categories
+
+                        <i class="fa-solid fa-angle-down"></i>
+
+                    </button>
+
+                    <div class="mega-menu">
+
+                        <a href="#"><i class="fa-solid fa-mobile-screen"></i>Phones & Tablets</a>
+
+                        <a href="#"><i class="fa-solid fa-headphones"></i>Headphones</a>
+
+                        <a href="#"><i class="fa-regular fa-clock"></i>Smart Watches</a>
+
+                        <a href="#"><i class="fa-solid fa-plug"></i>Chargers</a>
+
+                        <a href="#"><i class="fa-solid fa-battery-three-quarters"></i>Power Banks</a>
+
+                        <a href="#"><i class="fa-solid fa-volume-high"></i>Speakers</a>
+
+                        <a href="#"><i class="fa-solid fa-camera"></i>Cameras</a>
+
+                        <a href="#"><i class="fa-solid fa-gamepad"></i>Gaming</a>
+
+                        <a href="#" class="all-category">
+
+                            View All Categories
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Nav -->
+
+                <ul class="menu">
+
+                    <li><a href="index.html" class="active">Home</a></li>
+
+                    <li><a href="#">Brand</a></li>
+
+                    <li><a href="product-listing.html">All Products</a></li>
+
+                    <li><a href="#">New Arrivals</a></li>
+
+                    <li><a href="#">Best Sellers</a></li>
+
+                    <li><a href="#">Deals</a></li>
+
+                    <li><a href="#">Accessories</a></li>
+
+                </ul>
+
+
+                <!-- Sale -->
+
+                <a href="#" class="sale-box">
+
+                    <i class="fa-solid fa-tag"></i>
+
+                    <div>
+
+                        <strong>Summer Sale</strong>
+
+                        <span>Up to 40% OFF</span>
+
+                    </div>
+
+                </a>
+
+                <!-- Mobile Menu Button -->
+<div class="mobile-toggle">
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    </header>
+    <nav class="simple-nav">
+        <div class="container"><a href="product-listing.html">Shop All</a><a href="product-listing.html">Phones & Tablets</a><a href="product-listing.html">Headphones</a><a href="product-listing.html">Smart Watches</a><a href="product-listing.html">Gaming</a><a href="product-listing.html">Accessories</a>
+            <a
+            href="#">Deals</a>
+        </div>
+    </nav>
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <div>
+                    <div class="crumb">Home / My Account</div>
+                    <h1>My Account</h1>
+                    <p>Manage your orders, profile and account settings.</p>
+                </div>
+            </div>
+        </section>
+        <section class="account-page">
+            <div class="container account-layout">
+                <aside class="account-nav">
+                    <div class="account-user">
+                        <div class="avatar">MM</div>
+                        <div><b>Welcome back</b><span>Customer Account</span></div>
+                    </div>
+                    <button class="active" data-tab="dashboard"><i class="fa-solid fa-grid-2"></i> Dashboard</button>
+                    <button data-tab="orders"><i class="fa-solid fa-box"></i> My Orders <b>3</b></button>
+                    <button data-tab="addresses"><i class="fa-solid fa-location-dot"></i> Addresses</button>
+                    <button data-tab="profile"><i class="fa-solid fa-user"></i> Profile Details</button>
+                    <button data-tab="wishlist"><i class="fa-regular fa-heart"></i> Wishlist</button>
+                    <button data-tab="password"><i class="fa-solid fa-lock"></i> Change Password</button>
+                    <button><i class="fa-solid fa-right-from-bracket"></i> Logout</button>
+                </aside>
+                <div class="account-content">
+                    <div class="account-tab active" id="dashboard">
+                        <div class="welcome-card">
+                            <div><small>MY ACCOUNT</small>
+                                <h2>Hello, welcome back!</h2>
+                                <p>From your dashboard you can view recent orders, manage addresses and edit account details.</p>
+                            </div><i class="fa-solid fa-bag-shopping"></i></div>
+                        <div class="account-stats">
+                            <div><i class="fa-solid fa-box"></i><span><b>03</b>Total Orders</span></div>
+                            <div><i class="fa-solid fa-truck"></i><span><b>01</b>In Delivery</span></div>
+                            <div><i class="fa-regular fa-heart"></i><span><b>06</b>Wishlist</span></div>
+                        </div>
+                        <div class="recent-orders">
+                            <div class="section-row">
+                                <h3>Recent Orders</h3>
+                                <button data-go="orders">View All</button>
+                            </div>
+                            <div class="order-row"><span><small>Order</small><b>#KJ10482</b></span><span><small>Date</small>02 Aug 2026</span><span><small>Total</small><b>OMR 529.000</b></span><span class="status shipped">Shipped</span>
+                                <button>View</button>
+                            </div>
+                            <div class="order-row"><span><small>Order</small><b>#KJ10371</b></span><span><small>Date</small>19 Jul 2026</span><span><small>Total</small><b>OMR 99.000</b></span><span class="status delivered">Delivered</span>
+                                <button>View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="account-tab" id="orders">
+                        <h2>My Orders</h2>
+                        <p class="muted">Track and review all your purchases.</p>
+                        <div class="order-card">
+                            <div><small>ORDER #KJ10482</small><b>02 Aug 2026</b></div><span class="status shipped">Shipped</span><strong>OMR 529.000</strong>
+                            <button class="outline-btn">View Details</button>
+                        </div>
+                        <div class="order-card">
+                            <div><small>ORDER #KJ10371</small><b>19 Jul 2026</b></div><span class="status delivered">Delivered</span><strong>OMR 99.000</strong>
+                            <button class="outline-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="account-tab" id="addresses">
+                        <div class="section-row">
+                            <div>
+                                <h2>Saved Addresses</h2>
+                                <p class="muted">Manage delivery addresses.</p>
+                            </div>
+                            <button class="primary-btn">+ Add New Address</button>
+                        </div>
+                        <div class="address-card"><span>DEFAULT</span>
+                            <h3>Home</h3>
+                            <p>Muscat, Sultanate of Oman</p>
+                            <p>+968 XXXX XXXX</p>
+                            <div>
+                                <button>Edit</button>
+                                <button>Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="account-tab" id="profile">
+                        <h2>Profile Details</h2>
+                        <p class="muted">Update your personal information.</p>
+                        <div class="profile-form form-grid">
+                            <label>First Name
+                                <input value="Customer">
+                            </label>
+                            <label>Last Name
+                                <input value="Name">
+                            </label>
+                            <label>Email
+                                <input value="customer@example.com">
+                            </label>
+                            <label>Phone
+                                <input value="+968 XXXX XXXX">
+                            </label>
+                            <label class="full">Date of Birth
+                                <input type="date">
+                            </label>
+                            <button class="primary-btn">Save Changes</button>
+                        </div>
+                    </div>
+                    <div class="account-tab" id="wishlist">
+                        <h2>My Wishlist</h2>
+                        <p class="muted">Products you saved for later.</p>
+                        <div class="products-grid small">
+                            <article class="p-card" data-cat="Phones & Tablets" data-brand="Apple">
+                                <div class="p-img"><span class="p-badge">New</span>
+                                    <a href="product-details.html"><img src="assets/images/home/arrival/1.jpg" alt="Apple iPhone 16 Pro Max"></a>
+                                    <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                                </div>
+                                <div class="p-info"><small>Apple · Phones & Tablets</small>
+                                    <h3><a href="product-details.html">Apple iPhone 16 Pro Max</a></h3>
+                                    <div class="rating">★★★★★ <span>(24)</span></div>
+                                    <div class="p-price"><strong>OMR 529.000</strong><span class="stock ">In Stock</span></div>
+                                    <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                                </div>
+                            </article>
+                            <article class="p-card" data-cat="Phones & Tablets" data-brand="Samsung">
+                                <div class="p-img"><span class="p-badge">New</span>
+                                    <a href="product-details.html"><img src="assets/images/home/arrival/2.png" alt="Galaxy S25 Ultra 5G"></a>
+                                    <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                                </div>
+                                <div class="p-info"><small>Samsung · Phones & Tablets</small>
+                                    <h3><a href="product-details.html">Galaxy S25 Ultra 5G</a></h3>
+                                    <div class="rating">★★★★★ <span>(24)</span></div>
+                                    <div class="p-price"><strong>OMR 469.000</strong><span class="stock ">In Stock</span></div>
+                                    <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                                </div>
+                            </article>
+                            <article class="p-card" data-cat="Headphones" data-brand="Sony">
+                                <div class="p-img"><span class="p-badge">New</span>
+                                    <a href="product-details.html"><img src="assets/images/home/arrival/3.png" alt="WH-1000XM5 Headphones"></a>
+                                    <button class="wish"><i class="fa-regular fa-heart"></i></button>
+                                </div>
+                                <div class="p-info"><small>Sony · Headphones</small>
+                                    <h3><a href="product-details.html">WH-1000XM5 Headphones</a></h3>
+                                    <div class="rating">★★★★★ <span>(24)</span></div>
+                                    <div class="p-price"><strong>OMR 139.900</strong><span class="stock ">Only 3 left</span></div>
+                                    <button class="add-cart"><i class="fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="account-tab" id="password">
+                        <h2>Change Password</h2>
+                        <p class="muted">Use a strong password you don't use elsewhere.</p>
+                        <div class="password-form">
+                            <label>Current Password
+                                <input type="password">
+                            </label>
+                            <label>New Password
+                                <input type="password">
+                            </label>
+                            <label>Confirm New Password
+                                <input type="password">
+                            </label>
+                            <button class="primary-btn">Update Password</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="login-preview">
+            <div class="container">
+                <div class="login-card">
+                    <div><small>RETURNING CUSTOMER</small>
+                        <h2>Login</h2>
+                        <p>Access orders, wishlist and saved addresses.</p>
+                        <label>Email
+                            <input type="email" placeholder="Email address">
+                        </label>
+                        <label>Password
+                            <input type="password" placeholder="Password">
+                        </label>
+                        <div class="login-meta">
+                            <label>
+                                <input type="checkbox"> Remember me</label><a href="#">Forgot password?</a></div>
+                        <button class="primary-btn">Login to My Account</button>
+                    </div>
+                    <div class="register-side"><small>NEW HERE?</small>
+                        <h2>Create an Account</h2>
+                        <p>Register for faster checkout, order tracking, wishlists and exclusive offers.</p>
+                        <button class="outline-btn">Create Account</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- ===========================
+        FOOTER START
+=========================== -->
+
+<footer class="footer">
+
+
+
+    <div class="container">
+
+        <!-- ===========================
+                Newsletter
+        ============================ -->
+
+        <div class="footer-newsletter">
+
+            <div class="newsletter-left">
+
+                <div class="newsletter-icon">
+                    <i class="ph ph-envelope-simple"></i>
+                </div>
+
+                <div class="newsletter-content">
+
+                    <h2>
+                        STAY CONNECTED WITH
+                        <span>KHALIK JAHIZ</span>
+                    </h2>
+
+                    <p>
+                        Get early access to exclusive collections,
+                        discounts and new arrivals.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <form class="newsletter-form">
+
+                <div class="newsletter-input">
+
+                    <i class="ph ph-envelope-simple"></i>
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email address">
+
+                </div>
+
+                <button type="submit">
+                    Subscribe
+                    <i class="ph ph-arrow-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- ===========================
+                Main Footer
+        ============================ -->
+
+        <div class="footer-main">
+
+            <!-- Left -->
+
+            <div class="footer-about">
+
+                <a href="#" class="footer-logo">
+                    <img src="assets/images/logo-yellow.png" alt="">
+                </a>
+
+                <p>
+
+                    Premium streetwear & lifestyle.
+                    Built for those who create
+                    their own rules.
+
+                </p>
+
+                <div class="footer-social">
+
+                    <a href="#">
+                        <i class="ph-fill ph-instagram-logo"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="ph-fill ph-facebook-logo"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="ph-fill ph-tiktok-logo"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="ph-fill ph-x-logo"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Shop -->
+
+            <div class="footer-column">
+
+                <h4>Shop</h4>
+
+                <ul>
+
+                    <li><a href="#">New Arrivals</a></li>
+
+                    <li><a href="#">Collections</a></li>
+
+                    <li><a href="#">Men</a></li>
+
+                    <li><a href="#">Women</a></li>
+
+                    <li><a href="#">Accessories</a></li>
+
+                    <li><a href="#">Best Sellers</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Support -->
+
+            <div class="footer-column">
+
+                <h4>Support</h4>
+
+                <ul>
+
+                    <li><a href="#">FAQ</a></li>
+
+                    <li><a href="#">Shipping Info</a></li>
+
+                    <li><a href="#">Returns</a></li>
+
+                    <li><a href="#">Track Order</a></li>
+
+                    <li><a href="#">Size Guide</a></li>
+
+                    <li><a href="#">Contact Us</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Company -->
+
+            <div class="footer-column">
+
+                <h4>Company</h4>
+
+                <ul>
+
+                    <li><a href="#">About Us</a></li>
+
+                    <li><a href="#">Our Story</a></li>
+
+                    <li><a href="#">Blog</a></li>
+
+                    <li><a href="#">Join Our Team</a></li>
+
+                    <li><a href="#">Sustainability</a></li>
+
+                    <li><a href="#">In The News</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Contact -->
+
+            <div class="footer-column footer-contact">
+
+                <h4>Contact</h4>
+
+                <ul>
+
+                    <li>
+
+                        <i class="ph-fill ph-map-pin"></i>
+
+                        <span>
+                            Muscat, Oman
+                        </span>
+
+                    </li>
+
+                    <li>
+
+                        <i class="ph-fill ph-phone"></i>
+
+                        <span>
+                            +971 XX XXX XXXX
+                        </span>
+
+                    </li>
+
+                    <li>
+
+                        <i class="ph-fill ph-envelope-simple"></i>
+
+                        <span>
+                            hello@khalikjahiz.com
+                        </span>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- ===========================
+                Bottom
+        ============================ -->
+
+        <div class="footer-bottom">
+
+            <div class="copyright">
+
+                © Khalik Jahiz.
+                All Rights Reserved.
+
+            </div>
+
+            <div class="footer-love">
+
+                <i class="ph-fill ph-heart"></i>
+
+                Crafted with passion.
+
+            </div>
+
+            <div class="payment-icons">
+
+                <img src="assets/images/payment/visa.png" alt="">
+
+                <img src="assets/images/payment/mastercard.png" alt="">
+
+                <img src="assets/images/payment/apple-pay.png" alt="">
+
+                <img src="assets/images/payment/paypal.png" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+    <div class="mini-cart-overlay"></div>
+    <aside class="mini-cart">
+        <div class="mini-head">
+            <h3>Your Cart <span>(2)</span></h3>
+            <button class="mini-close">×</button>
+        </div>
+        <div class="mini-items">
+            <div class="mini-item"><img src="assets/images/home/arrival/1.jpg">
+                <div><b>iPhone 16 Pro Max</b><small>Natural Titanium</small><strong>OMR 529.000</strong></div>
+                <button>×</button>
+            </div>
+            <div class="mini-item"><img src="assets/images/home/arrival/4.png">
+                <div><b>AirPods Pro</b><small>White</small><strong>OMR 99.000</strong></div>
+                <button>×</button>
+            </div>
+        </div>
+        <div class="mini-total">
+            <div><span>Subtotal</span><b>OMR 628.000</b></div>
+            <p>Shipping & taxes calculated at checkout.</p><a href="checkout.html" class="primary-btn">Checkout</a><a href="cart.html" class="outline-btn">View Cart</a></div>
+    </aside>
+      <script src="assets/js/ecommerce.js"></script>
+    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/ecommerce.js"></script>
+</body>
+
+</html>

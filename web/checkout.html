@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Shopping Cart | Khalik Jahiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/ecommerce.css">
+        <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper@6.7.0/swiper-bundle.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/14.0.5/swiper-bundle.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+    <link rel="stylesheet" href="assets/css/ecommerce.css">
+</head>
+
+<body>
+    <header>
+
+            <!--==============================
+        TOP BAR
+    ==============================-->
+
+    <div class="top-bar">
+
+        <div class="container">
+
+            <div class="top-left">
+
+                <i class="fa-solid fa-bolt"></i>
+
+                <span>Free delivery on orders over OMR 50</span>
+
+            </div>
+
+            <div class="top-right">
+
+                <a href="#">Track Order</a>
+
+                <a href="#">Help Center</a>
+
+                <a href="#">
+                    English
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+
+                <a href="#">
+                    OMR
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+        <div class="container">
+
+            <div class="header-glass">
+
+                <!-- Logo -->
+
+                <a href="index.html" class="logo">
+
+                    <img src="assets/images/logo.png" alt="">
+
+                </a>
+
+
+                <!-- Search -->
+
+                <div class="search-box">
+
+                    <input type="text" placeholder="Search products, brands and more...">
+
+                    <button>
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Icons -->
+
+                <div class="header-icons">
+
+                    <a href="#">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                        <span>Wishlist</span>
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fa-solid fa-code-compare"></i>
+
+                        <span>Compare</span>
+
+                    </a>
+
+                    <a href="my-account.html">
+
+                        <i class="fa-regular fa-user"></i>
+
+                        <span>Account</span>
+
+                    </a>
+
+
+                    <a href="cart.html" class="cart-btn js-cart-toggle">
+
+                        <i class="fa-solid fa-bag-shopping"></i>
+
+                        <span>Cart</span>
+
+                        <b>2</b>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+    <!--==============================
+        NAVIGATION
+    ==============================-->
+
+    <section class="navigation">
+
+        <div class="container">
+
+            <div class="nav-wrapper">
+
+
+                <!-- Category -->
+
+                <div class="category-menu">
+
+                    <button class="category-btn">
+
+                        <i class="fa-solid fa-grip"></i>
+
+                        Shop By Categories
+
+                        <i class="fa-solid fa-angle-down"></i>
+
+                    </button>
+
+                    <div class="mega-menu">
+
+                        <a href="#"><i class="fa-solid fa-mobile-screen"></i>Phones & Tablets</a>
+
+                        <a href="#"><i class="fa-solid fa-headphones"></i>Headphones</a>
+
+                        <a href="#"><i class="fa-regular fa-clock"></i>Smart Watches</a>
+
+                        <a href="#"><i class="fa-solid fa-plug"></i>Chargers</a>
+
+                        <a href="#"><i class="fa-solid fa-battery-three-quarters"></i>Power Banks</a>
+
+                        <a href="#"><i class="fa-solid fa-volume-high"></i>Speakers</a>
+
+                        <a href="#"><i class="fa-solid fa-camera"></i>Cameras</a>
+
+                        <a href="#"><i class="fa-solid fa-gamepad"></i>Gaming</a>
+
+                        <a href="#" class="all-category">
+
+                            View All Categories
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Nav -->
+
+                <ul class="menu">
+
+                    <li><a href="index.html" class="active">Home</a></li>
+
+                    <li><a href="#">Brand</a></li>
+
+                    <li><a href="product-listing.html">All Products</a></li>
+
+                    <li><a href="#">New Arrivals</a></li>
+
+                    <li><a href="#">Best Sellers</a></li>
+
+                    <li><a href="#">Deals</a></li>
+
+                    <li><a href="#">Accessories</a></li>
+
+                </ul>
+
+
+                <!-- Sale -->
+
+                <a href="#" class="sale-box">
+
+                    <i class="fa-solid fa-tag"></i>
+
+                    <div>
+
+                        <strong>Summer Sale</strong>
+
+                        <span>Up to 40% OFF</span>
+
+                    </div>
+
+                </a>
+
+                <!-- Mobile Menu Button -->
+<div class="mobile-toggle">
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    </header>
+    <nav class="simple-nav">
+        <div class="container"><a href="product-listing.html">Shop All</a><a href="product-listing.html">Phones & Tablets</a><a href="product-listing.html">Headphones</a><a href="product-listing.html">Smart Watches</a><a href="product-listing.html">Gaming</a><a href="product-listing.html">Accessories</a>
+            <a
+            href="#">Deals</a>
+        </div>
+    </nav>
+
+
+  
+
+    <main>
+        <section class="checkout-top">
+            <div class="container">
+                <div><span class="done">1 Cart</span><i>—</i><span class="active">2 Checkout</span><i>—</i><span>3 Complete</span></div>
+            </div>
+        </section>
+        <section class="checkout-page">
+            <div class="container checkout-grid">
+                <form class="checkout-form">
+                    <div class="checkout-box">
+                        <div class="box-title">
+                            <h2>Contact Information</h2><a href="my-account.html">Already have an account? Log in</a></div>
+                        <label class="input_vl_container">Email address
+                            <input type="email" placeholder="you@example.com">
+                        </label>
+                        <label class="check">
+                            <input type="checkbox" checked> Email me with news and offers</label>
+                    </div>
+                    <div class="checkout-box">
+                        <h2>Delivery Address</h2>
+                        <div class="form-grid">
+                            <label class="input_vl_container">First name
+                                <input placeholder="First name">
+                            </label>
+                            <label class="input_vl_container">Last name
+                                <input placeholder="Last name">
+                            </label>
+                            <label class="full input_vl_container">Country / Region
+                                <select>
+                                    <option>Oman</option>
+                                </select>
+                            </label>
+                            <label class="full input_vl_container">Street address
+                                <input placeholder="House number and street name">
+                            </label>
+                            <label class="input_vl_container">City
+                                <input value="Muscat">
+                            </label>
+                            <label class="input_vl_container">Governorate
+                                <select>
+                                    <option>Muscat</option>
+                                    <option>Dhofar</option>
+                                    <option>Al Batinah North</option>
+                                </select>
+                            </label>
+                            <label class="input_vl_container">Postal code
+                                <input placeholder="100">
+                            </label>
+                            <label class="input_vl_container">Phone
+                                <input placeholder="+968 XXXX XXXX">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="checkout-box">
+                        <h2>Delivery Method</h2>
+                        <label class="shipping selected">
+                            <input type="radio" checked><span><i class="ph ph-truck"></i>  <b>Standard Delivery</b><small>1–3 business days</small></span><strong>FREE</strong></label>
+                        <label class="shipping">
+                            <input type="radio"><span><i class="ph ph-rocket-launch"></i> <b>Express Delivery</b><small>Same/next day in selected Muscat areas</small></span><strong>OMR 2.500</strong></label>
+                    </div>
+                    <div class="checkout-box">
+                        <h2>Payment</h2>
+                        <p class="muted">All transactions are secure and encrypted.</p>
+                        <label class="payment selected">
+                            <input type="radio" checked><span>Credit / Debit Card</span>
+                            <div class="pay-mini"><img src="assets/images/payment/visa.png"><img src="assets/images/payment/mastercard.png"></div>
+                        </label>
+                        <div class="card-fields">
+    
+                            <div class="form-grid">
+                                                        <label class="input_vl_container">Card number
+                                <input placeholder="1234 5678 9012 3456">
+                            </label>
+                                <label class="input_vl_container">Expiry
+                                    <input placeholder="MM / YY">
+                                </label>
+                                <label class="input_vl_container">Security code
+                                    <input placeholder="CVV">
+                                </label>
+                            </div>
+                        </div>
+                        <label class="payment">
+                            <input type="radio"><span>Cash on Delivery</span></label>
+                    </div>
+                    <button class="primary-btn checkout-submit"><i class="ph ph-lock-key"></i> Pay OMR 628.000</button>
+                </form>
+                <aside class="checkout-summary">
+                    <h3>Your Order</h3>
+                    <div class="order-product">
+                        <div><img src="assets/images/home/arrival/1.jpg"><b>1</b></div><span>iPhone 16 Pro Max 256GB<small>Natural Titanium</small></span><strong>OMR 529.000</strong></div>
+                    <div class="order-product">
+                        <div><img src="assets/images/home/arrival/4.png"><b>1</b></div><span>AirPods Pro 2nd Gen<small>White</small></span><strong>OMR 99.000</strong></div>
+                    <div class="checkout-coupon">
+                        <input placeholder="Discount code">
+                        <button>Apply</button>
+                    </div>
+                    <div class="sumrow"><span>Subtotal</span><b>OMR 628.000</b></div>
+                    <div class="sumrow"><span>Shipping</span><b>FREE</b></div>
+                    <hr>
+                    <div class="sumrow total"><span>Total <small>OMR</small></span><b>OMR 628.000</b></div>
+                    <div class="trust-note">
+                        <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="111.811px" height="122.88px" viewBox="0 0 111.811 122.88" enable-background="new 0 0 111.811 122.88" xml:space="preserve"><g><path fill-rule="evenodd" clip-rule="evenodd" d="M55.713,0c20.848,13.215,39.682,19.467,55.846,17.989 c2.823,57.098-18.263,90.818-55.63,104.891C19.844,109.708-1.5,77.439,0.083,17.123C19.058,18.116,37.674,14.014,55.713,0L55.713,0 z M33.784,66.775c-1.18-1.01-1.318-2.786-0.309-3.967c1.011-1.181,2.787-1.318,3.967-0.309l11.494,9.875l25.18-27.684 c1.047-1.15,2.828-1.234,3.979-0.188c1.149,1.046,1.233,2.827,0.187,3.978L51.262,78.188l-0.002-0.002 c-1.02,1.121-2.751,1.236-3.91,0.244L33.784,66.775L33.784,66.775z M55.735,7.055c18.454,11.697,35.126,17.232,49.434,15.923 c2.498,50.541-16.166,80.39-49.241,92.846C23.986,104.165,5.091,75.603,6.493,22.211C23.29,23.091,39.768,19.46,55.735,7.055 L55.735,7.055z"/></g></svg>
+                        <span><b>Safe & Secure Checkout</b>Your information is protected.</span></div>
+                </aside>
+            </div>
+        </section>
+    </main>
+<!-- ===========================
+        FOOTER START
+=========================== -->
+
+<footer class="footer">
+
+
+
+    <div class="container">
+
+        <!-- ===========================
+                Newsletter
+        ============================ -->
+
+        <div class="footer-newsletter">
+
+            <div class="newsletter-left">
+
+                <div class="newsletter-icon">
+                    <i class="ph ph-envelope-simple"></i>
+                </div>
+
+                <div class="newsletter-content">
+
+                    <h2>
+                        STAY CONNECTED WITH
+                        <span>KHALIK JAHIZ</span>
+                    </h2>
+
+                    <p>
+                        Get early access to exclusive collections,
+                        discounts and new arrivals.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <form class="newsletter-form">
+
+                <div class="newsletter-input">
+
+                    <i class="ph ph-envelope-simple"></i>
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email address">
+
+                </div>
+
+                <button type="submit">
+                    Subscribe
+                    <i class="ph ph-arrow-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- ===========================
+                Main Footer
+        ============================ -->
+
+        <div class="footer-main">
+
+            <!-- Left -->
+
+            <div class="footer-about">
+
+                <a href="#" class="footer-logo">
+                    <img src="assets/images/logo-yellow.png" alt="">
+                </a>
+
+                <p>
+
+                    Premium streetwear & lifestyle.
+                    Built for those who create
+                    their own rules.
+
+                </p>
+
+                <div class="footer-social">
+
+                    <a href="#">
+                        <i class="ph-fill ph-instagram-logo"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="ph-fill ph-facebook-logo"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="ph-fill ph-tiktok-logo"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="ph-fill ph-x-logo"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Shop -->
+
+            <div class="footer-column">
+
+                <h4>Shop</h4>
+
+                <ul>
+
+                    <li><a href="#">New Arrivals</a></li>
+
+                    <li><a href="#">Collections</a></li>
+
+                    <li><a href="#">Men</a></li>
+
+                    <li><a href="#">Women</a></li>
+
+                    <li><a href="#">Accessories</a></li>
+
+                    <li><a href="#">Best Sellers</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Support -->
+
+            <div class="footer-column">
+
+                <h4>Support</h4>
+
+                <ul>
+
+                    <li><a href="#">FAQ</a></li>
+
+                    <li><a href="#">Shipping Info</a></li>
+
+                    <li><a href="#">Returns</a></li>
+
+                    <li><a href="#">Track Order</a></li>
+
+                    <li><a href="#">Size Guide</a></li>
+
+                    <li><a href="#">Contact Us</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Company -->
+
+            <div class="footer-column">
+
+                <h4>Company</h4>
+
+                <ul>
+
+                    <li><a href="#">About Us</a></li>
+
+                    <li><a href="#">Our Story</a></li>
+
+                    <li><a href="#">Blog</a></li>
+
+                    <li><a href="#">Join Our Team</a></li>
+
+                    <li><a href="#">Sustainability</a></li>
+
+                    <li><a href="#">In The News</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Contact -->
+
+            <div class="footer-column footer-contact">
+
+                <h4>Contact</h4>
+
+                <ul>
+
+                    <li>
+
+                        <i class="ph-fill ph-map-pin"></i>
+
+                        <span>
+                            Muscat, Oman
+                        </span>
+
+                    </li>
+
+                    <li>
+
+                        <i class="ph-fill ph-phone"></i>
+
+                        <span>
+                            +971 XX XXX XXXX
+                        </span>
+
+                    </li>
+
+                    <li>
+
+                        <i class="ph-fill ph-envelope-simple"></i>
+
+                        <span>
+                            hello@khalikjahiz.com
+                        </span>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- ===========================
+                Bottom
+        ============================ -->
+
+        <div class="footer-bottom">
+
+            <div class="copyright">
+
+                © Khalik Jahiz.
+                All Rights Reserved.
+
+            </div>
+
+            <div class="footer-love">
+
+                <i class="ph-fill ph-heart"></i>
+
+                Crafted with passion.
+
+            </div>
+
+            <div class="payment-icons">
+
+                <img src="assets/images/payment/visa.png" alt="">
+
+                <img src="assets/images/payment/mastercard.png" alt="">
+
+                <img src="assets/images/payment/apple-pay.png" alt="">
+
+                <img src="assets/images/payment/paypal.png" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+    <div class="mini-cart-overlay"></div>
+    <aside class="mini-cart">
+        <div class="mini-head">
+            <h3>Your Cart <span>(2)</span></h3>
+            <button class="mini-close">×</button>
+        </div>
+        <div class="mini-items">
+            <div class="mini-item"><img src="assets/images/home/arrival/1.jpg">
+                <div><b>iPhone 16 Pro Max</b><small>Natural Titanium</small><strong>OMR 529.000</strong></div>
+                <button>×</button>
+            </div>
+            <div class="mini-item"><img src="assets/images/home/arrival/4.png">
+                <div><b>AirPods Pro</b><small>White</small><strong>OMR 99.000</strong></div>
+                <button>×</button>
+            </div>
+        </div>
+        <div class="mini-total">
+            <div><span>Subtotal</span><b>OMR 628.000</b></div>
+            <p>Shipping & taxes calculated at checkout.</p><a href="checkout.html" class="primary-btn">Checkout</a><a href="cart.html" class="outline-btn">View Cart</a></div>
+    </aside>
+      <script src="assets/js/ecommerce.js"></script>
+    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/ecommerce.js"></script>
+</body>
+
+</html>
